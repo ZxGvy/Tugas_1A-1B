@@ -1,1 +1,2 @@
-# Tugas_1A-1B
+Rindan Maulana
+i.2210361
