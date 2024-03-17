@@ -1,0 +1,29 @@
+print ("---- INDEX MASA TUBUH ----\n")
+
+nama = input("Masukkan nama anda = ")
+tanggal = int(input("Masukkan tanggal lahir anda = "))
+bulan = input("Masukkan bulan lahir anda = ")
+tahun = input("Masukkan tahun lahir anda = ")
+bb = float(input("Masukkan berat badan anda = "))
+tb = float(input("Masukkan tinggi badan anda = "))
+
+imt = bb / ((tb/100)**2)
+
+if imt >= 40:
+    print("-- Obase class 3 --")
+elif imt >= 35:
+    print("-- Obase class 2 --")
+elif imt >= 30:
+    print("-- Obase class 1 --")
+elif imt >= 25:
+    print("-- Overweight --")
+elif imt >= 18:
+    print ("-- Normal range --")
+elif imt <= 18:
+    print("-- Underweight --")
+
+print("Nama : ",nama)
+print("Tanggal lahir : ",tanggal,bulan,tahun)
+print("Berat Badan Anda : ",bb," kg")
+print("Tinggi Badan Anda : ",tb," cm")
+print("Skor Index Masa Tubuh (IMT) Anda : ",imt)
