@@ -1,0 +1,62 @@
+---- LUAS SEGITIGA ----
+
+Algoritmanya :
+- Masukkan panjang alas segitiga (a)
+- Masukkan tinggi (t)
+- Hitung luas segitiga dengan rumus: luas = 0.5*a*t
+- Tampilkan hasil luas
+
+
+print("---- Luas Segitiga ----")
+
+a = float(input("Masukkan alas segitiga = "))
+t = float(input("Masukkan tinggi segitiga = "))
+
+luas = 0.5 * a * t
+
+print("Alas : ",a)
+print("tinggi : ",t)
+print("Hasil luas segitiga adalah : ",luas)
+
+--------------------------------------------------------------------------------------------------------
+---- Volume Bola ----
+
+Algoritmanya :
+
+- Masukkan jari - jari bola (r)
+- Hitung volume bola dengan rumus = (4/3) * phi * r^3
+- Tampilkan hasil volumenya
+
+
+print("---- VOLUME BOLA ----")
+
+r = float(input("Masukkan jari - jari bola : "))
+phi = 3.15
+volume = 4/3 * phi * r**3
+
+print("jari - jari : ", r)
+print("Volume bola adalah : ",volume)
+[
+--------------------------------------------------------------------------------------------------------
+---- VOLUME BALOK ----
+
+Algoritmanya: 
+- Masukkan panjang balok (p)
+- Masukkan lebar balok (l)
+- Masukkan tinggi balok (t)
+- Hitung volume balok dengan rumus: volume = p.l.t
+= Tampilkan hasil volume
+
+
+print("---- VOLUME BALOK ----")
+
+p = float(input("Masukkan Panjang balok : "))
+l = float(input("Masukan lebar balok : "))
+t = float(input("Masukkan tinggi balok : "))
+
+volume = p * l * t
+
+print("Panjang = ",p)
+print("Lebar = ",l)
+print("Tinggi = ",t)
+print("Hasil volume Balok : ",volume)
